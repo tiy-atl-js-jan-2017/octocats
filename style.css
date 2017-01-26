@@ -9,11 +9,6 @@ img {
     height: 320px;
 }
 
-.authors img {
-    width: 20px;
-    height: 20px;
-}
-
 li {
     list-style: none;
 }
@@ -22,4 +17,30 @@ a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.octocat {
+    float: left;
+    margin: 0px 5px;
+}
+
+.octocat img {
+    border: 1px solid lightgrey;
+}
+
+.image-footer {
+    border-bottom: 1px solid lightgrey;
+}
+
+.image-caption {
+    float: right;
+}
+
+.authors {
+    float: right;
+}
+
+.authors img {
+    width: 20px;
+    height: 20px;
 }
